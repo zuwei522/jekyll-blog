@@ -215,7 +215,7 @@ google:
     adsense:
         enabled: true
         footer: false
-        sidebar: false
+        sidebar: true
         sidebar-detail: true
         content_header: false
-        content_footer: true
+        content_footer: false
