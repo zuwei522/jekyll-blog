@@ -20,6 +20,6 @@ permalink: /donate/
 
 <img style="width:256px;border:1px solid lightgrey;" src="{{ assets_base_url }}/assets/images/receipt-code-wechat.png" alt="wechat receipt code" />
 
-## 支付宝 / Alipay -->
+## 支付宝 / Alipay
 
 <img style="width:256px;border:1px solid lightgrey;" src="{{ assets_base_url }}/assets/images/receipt-code-alipay.jpg" alt="alipay receipt code" />
