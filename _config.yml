@@ -211,7 +211,7 @@ simple_jekyll_search:
 #      Google      #
 # ---------------- #
 google:
-    analytics_id:
+    analytics_id: G-RY79YHGVGE
     adsense:
         enabled: true
         footer: false
