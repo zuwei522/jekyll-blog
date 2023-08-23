@@ -1,14 +1,14 @@
 ---
 layout: page
-title: About
-description: 打码改变世界
+title: 关于 / About
+description: Love & Share
 keywords: Jiang Zuwei, 祖为
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-Love & Share
+博观而约取，厚积而薄发。
 
 ## 联系
 
@@ -16,12 +16,7 @@ Love & Share
 {% for website in site.data.social %}
 <li>{{website.sitename }}：<a href="{{ website.url }}" target="_blank">@{{ website.name }}</a></li>
 {% endfor %}
-{% if site.url contains 'mazhuang.org' %}
-<!-- <li>
-微信公众号：<br />
-<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ site.url }}/assets/images/qrcode.jpg" alt="闷骚的程序员" />
-</li> -->
-{% endif %}
+<li>E-mail：<a href="mailto:祖为<jiang@zuwei.top>" target="_blank">jiang@zuwei.top</a></li>
 </ul>
 
 

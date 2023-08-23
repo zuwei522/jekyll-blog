@@ -13,7 +13,7 @@ encoding: "utf-8"
 # 页面左下角显示的年份
 since: 2023
 # 源码仓库，请替换成自己的
-repository: XiaoLai233/XiaoLai233.github.io
+repository: zuwei522/zuwei522.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
@@ -23,7 +23,7 @@ components:
     # 分享
     # weibo,qq,wechat,douban,qzone,linkedin,facebook,twitter
     share:
-        enabled: true
+        enabled: false
         hide-platforms: 
     # 不蒜子访问统计
     busuanzi:
@@ -32,21 +32,21 @@ components:
     # My Popular Repositories
     side_bar_repo:
         enabled: true
-        limit: 5
+        limit: 3
     # 文章字数统计
     word_count:
         enabled: true
     # 页面右上角，以及「关于」页面的二维码
     # 修改图片请替换 assets/images/qrcode.jpg
     qrcode:
-        enabled: false
-        image_alt: 
+        enabled: true
+        image_alt: 博客二维码
     # 维基索引页使用哪种视图，支持 列表（list）/分类（cate）
     wiki:
-        view: list
+        view: cate
     # 图片灯箱效果功能
     fancybox:
-        enabled: true
+        enabled: false
 # 压缩页面内容
 compress_html:
   clippings: all
@@ -58,9 +58,9 @@ highlight_theme: base16.monokai.dark
 #      Author      #
 # ---------------- #
 author: Jiang Zuwei
-organization: 
-organization_url: 
-github_username: XiaoLai233
+organization: GUET
+organization_url: https://www.guet.edu.cn/gdbh/
+github_username: zuwei522
 location: Beihai, China
 email: jiang@zuwei.top
 
@@ -149,36 +149,44 @@ disqus:
     username: 
 # gitment 配置参考：https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: XiaoLai233
+    owner: zuwei522
     repo: blog-comments
     oauth:
         client_id: 
         client_secret: 
 # gitalk 配置参考：https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: XiaoLai233
+    owner: zuwei522
     repo: blog-comments
     clientID: 
     clientSecret: 
 # utterances 配置参考：https://utteranc.es/
 utterances:
-    repo: XiaoLai233/blog-comments
+    repo: zuwei522/blog-comments
 # beaudar 配置参考：https://beaudar.lipk.org/
 beaudar:
-    repo: XiaoLai233/blog-comments
+    repo: zuwei522/blog-comments
 # giscus 配置参考：https://giscus.app/zh-CN
 giscus:
-    repo: XiaoLai233/blog-comments
+    repo: zuwei522/blog-comments
     repo-id: R_kgDOG0bx7g
     category: Announcements
     category-id: DIC_kwDOG0bx7s4CYzWM
+    mapping: pathname
+    strict: 1
+    reactions-enabled: 1
+    emit-metadata: 0
+    input-position: top
+    theme: preferred_color_scheme
+    lang: zh-CN
+    loading: lazy
     
-        # data-repo="XiaoLai233/blog-comments"
+        # data-repo="zuwei522/blog-comments"
         # data-repo-id="R_kgDOG0bx7g"
         # data-category="Announcements"
         # data-category-id="DIC_kwDOG0bx7s4CYzWM"
         # data-mapping="pathname"
-        # data-strict="0"
+        # data-strict="1"
         # data-reactions-enabled="1"
         # data-emit-metadata="0"
         # data-input-position="top"
@@ -195,7 +203,7 @@ lazy_load_disqus : false
 # ---------------- #
 simple_jekyll_search:
     # 是否支持全文搜索
-    fulltext: false
+    fulltext: true
     # 最多显示多少条搜索结果
     limit: 10
 
@@ -205,9 +213,9 @@ simple_jekyll_search:
 google:
     analytics_id:
     adsense:
-        enabled: false
+        enabled: true
         footer: false
         sidebar: false
-        sidebar-detail: false
+        sidebar-detail: true
         content_header: false
-        content_footer: false
+        content_footer: true

@@ -43,7 +43,7 @@ mindmap2: false
   alert("Hello world!");
   ```
 
-  ![黑色警报对话框。在左上方的小圆圈图标后面有白色的开括号和闭括号，包含 JavaScript Application 白色文本。在左下方，有一个“Hello world!”白色的文字。右下方有一个蓝色的小按钮。这个按钮的文字是黑色的 OK](./images/wiki/alert-hello-world.png)
+  ![alert 弹窗：Hello World!](/images/wiki/alert-hello-world.png)
 
 ### console.log() 方法
 
