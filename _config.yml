@@ -2,18 +2,18 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://zuwei.top
 date_format: "ordinal"
-title: 码志
-subtitle: "公众号：闷骚的程序员"
-description: "马壮的个人博客，公众号：闷骚的程序员"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
+title: 有且可为
+subtitle: "祖为的个人博客"
+description: "祖为的个人博客"
+keywords: 祖为, zuwei, 有且可为, 博客, blog
 timezone: Asia/Shanghai
 encoding: "utf-8"
 # 页面左下角显示的年份
-since: 2015
+since: 2023
 # 源码仓库，请替换成自己的
-repository: mzlogin/mzlogin.github.io
+repository: XiaoLai233/XiaoLai233.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
@@ -23,12 +23,12 @@ components:
     # 分享
     # weibo,qq,wechat,douban,qzone,linkedin,facebook,twitter
     share:
-        enabled: false
-        hide-platforms: qq,facebook
+        enabled: true
+        hide-platforms: 
     # 不蒜子访问统计
     busuanzi:
-        enabled: false
-        start_date: 2020-05-03
+        enabled: true
+        start_date: 2023-08-23
     # My Popular Repositories
     side_bar_repo:
         enabled: true
@@ -39,30 +39,30 @@ components:
     # 页面右上角，以及「关于」页面的二维码
     # 修改图片请替换 assets/images/qrcode.jpg
     qrcode:
-        enabled: true
-        image_alt: 闷骚的程序员
+        enabled: false
+        image_alt: 
     # 维基索引页使用哪种视图，支持 列表（list）/分类（cate）
     wiki:
-        view: cate
+        view: list
     # 图片灯箱效果功能
     fancybox:
-        enabled: false
+        enabled: true
 # 压缩页面内容
 compress_html:
   clippings: all
   comments: ["<!--", "-->"]
 # 代码高亮风格，支持的 theme 列表见 https://github.com/mzlogin/rouge-themes
-highlight_theme: github
+highlight_theme: base16.monokai.dark
 
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: Jiang Zuwei
 organization: 
 organization_url: 
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+github_username: XiaoLai233
+location: Beihai, China
+email: jiang@zuwei.top
 
 # ---------------- #
 #    Navigation    #
@@ -149,29 +149,44 @@ disqus:
     username: 
 # gitment 配置参考：https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: mzlogin
+    owner: XiaoLai233
     repo: blog-comments
     oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+        client_id: 
+        client_secret: 
 # gitalk 配置参考：https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: mzlogin
+    owner: XiaoLai233
     repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+    clientID: 
+    clientSecret: 
 # utterances 配置参考：https://utteranc.es/
 utterances:
-    repo: mzlogin/blog-comments
+    repo: XiaoLai233/blog-comments
 # beaudar 配置参考：https://beaudar.lipk.org/
 beaudar:
-    repo: mzlogin/blog-comments
+    repo: XiaoLai233/blog-comments
 # giscus 配置参考：https://giscus.app/zh-CN
 giscus:
-    repo: mzlogin/blog-comments
-    repo-id: MDEwOlJlcG9zaXRvcnk5MzEyNzkxNw==
+    repo: XiaoLai233/blog-comments
+    repo-id: R_kgDOG0bx7g
     category: Announcements
-    category-id: DIC_kwDOBY0E7c4CRtg9
+    category-id: DIC_kwDOG0bx7s4CYzWM
+    
+        # data-repo="XiaoLai233/blog-comments"
+        # data-repo-id="R_kgDOG0bx7g"
+        # data-category="Announcements"
+        # data-category-id="DIC_kwDOG0bx7s4CYzWM"
+        # data-mapping="pathname"
+        # data-strict="0"
+        # data-reactions-enabled="1"
+        # data-emit-metadata="0"
+        # data-input-position="top"
+        # data-theme="preferred_color_scheme"
+        # data-lang="zh-CN"
+        # data-loading="lazy"
+        # crossorigin="anonymous"
+
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
@@ -188,7 +203,7 @@ simple_jekyll_search:
 #      Google      #
 # ---------------- #
 google:
-    analytics_id: # G-20FLEG5Q2W
+    analytics_id:
     adsense:
         enabled: false
         footer: false
