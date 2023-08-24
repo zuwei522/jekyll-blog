@@ -53,7 +53,7 @@ compress_html:
   clippings: all
   comments: ["<!--", "-->"]
 # 代码高亮风格，支持的 theme 列表见 https://github.com/mzlogin/rouge-themes
-highlight_theme: base16.monokai.dark
+highlight_theme: molokai
 
 # ---------------- #
 #      Author      #
@@ -174,13 +174,6 @@ giscus:
     category: Announcements
     category-id: DIC_kwDOG0bx7s4CYzWM
     mapping: pathname
-    strict: 1
-    reactions-enabled: 1
-    emit-metadata: 0
-    input-position: top
-    theme: preferred_color_scheme
-    lang: zh-CN
-    loading: lazy
     
         # data-repo="zuwei522/blog-comments"
         # data-repo-id="R_kgDOG0bx7g"
@@ -215,6 +208,7 @@ google:
     analytics_id: G-RY79YHGVGE
     adsense:
         enabled: true
+        data-ad-client: ca-pub-7565690999339141
         footer: false
         sidebar: true
         sidebar-detail: true

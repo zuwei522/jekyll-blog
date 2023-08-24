@@ -1,8 +1,8 @@
-{% if site.google.adsense.enabled and site.google.adsense.sidebar-detail and site.url contains 'zuwei.top' %}
+{% if site.google.adsense.enabled and site.google.adsense.sidebar-detail %}
 <!-- 博客右侧，搜索下方 -->
 <ins class="adsbygoogle"
      style="display:inline-block;width:300px;height:250px"
-     data-ad-client="ca-pub-7565690999339141"
+     data-ad-client="{{ site.google.adsense.data-ad-client }}"
      data-ad-slot="5337165236"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});

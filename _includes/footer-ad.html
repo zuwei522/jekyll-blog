@@ -1,9 +1,9 @@
-{% if site.google.adsense.enabled and site.google.adsense.footer and page.layout != 'mindmap' and site.url contains 'zuwei.top' %}
+{% if site.google.adsense.enabled and site.google.adsense.footer and page.layout != 'mindmap' %}
       <!-- 博客底部 -->
       <ins class="adsbygoogle"
            style="display:block"
            data-ad-format="autorelaxed"
-           data-ad-client="ca-pub-7565690999339141"
+           data-ad-client="{{ site.google.adsense.data-ad-client }}"
            data-ad-slot="9073246172"></ins>
       <script>
            (adsbygoogle = window.adsbygoogle || []).push({});

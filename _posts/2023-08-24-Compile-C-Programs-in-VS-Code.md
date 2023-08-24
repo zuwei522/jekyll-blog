@@ -49,4 +49,3 @@ mindmap2: false
     3. 运行以下命令以验证 GCC 已安装。你应该会看到一条版权消息和有关所使用的 GCC 版本的信息。
 
             gcc --version
-
