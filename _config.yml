@@ -207,7 +207,7 @@ simple_jekyll_search:
 google:
     analytics_id: G-RY79YHGVGE
     adsense:
-        enabled: true
+        enabled: false
         data-ad-client: ca-pub-7565690999339141
         footer: false
         sidebar: true
