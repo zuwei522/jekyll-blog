@@ -1,8 +1,8 @@
 ---
 layout: wiki
-title: 函数 / Function
+title: 函数
 cate1: JavaScript
-cate2: Learning
+cate2: 学习
 description: JavaScript 函数
 keywords: JavaScrpit, 函数
 type:

@@ -1,8 +1,8 @@
 ---
 layout: wiki
-title: 数据类型 / Data Type
+title: 数据类型
 cate1: JavaScript
-cate2: Learning
+cate2: 学习
 description: JavaScript 基本数据类型
 keywords: JavaScrpit, 数据类型
 type:

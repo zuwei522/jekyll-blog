@@ -1,8 +1,8 @@
 ---
 layout: wiki
-title: Git 使用方法 / How to use Git
+title: Git 使用方法
 cate1: Git
-cate2: Learning
+cate2: 学习
 description: Git 常用命令及使用方法
 keywords: Git
 type:
