@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 如何在 VS Code 中编译 C 程序
-categories: [C, Visual Studio Code]
+categories: [Visual Studio Code]
 description: 配置 C 的编译环境和 VS Code
 keywords: Visual Studio Code, VS Code, C
 mermaid: false
