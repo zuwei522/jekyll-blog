@@ -3,6 +3,9 @@
 # ---------------- #
 baseurl:
 url: https://zuwei.top
+# 页脚 IPv6 标识
+ipv6: true
+    domain_name: zuwei.top
 date_format: "ordinal"
 title: 有且可为
 subtitle: "祖为的个人博客"
