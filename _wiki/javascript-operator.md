@@ -14,9 +14,6 @@ mathjax: false
 mindmap: false
 mindmap2: false
 ---
-
-# 运算符
-
 ```js
 console.log(2 ** 5) // 幂运算
 //32
