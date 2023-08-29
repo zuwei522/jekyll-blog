@@ -4,7 +4,8 @@
 baseurl:
 url: https://zuwei.top
 # 页脚 IPv6 标识
-ipv6: true
+ipv6:
+    enabled: true
     domain_name: zuwei.top
 date_format: "ordinal"
 title: 有且可为
