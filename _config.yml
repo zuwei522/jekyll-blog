@@ -3,10 +3,6 @@
 # ---------------- #
 baseurl:
 url: https://zuwei.top
-# 页脚 IPv6 标识
-ipv6:
-    enabled: true
-    domain_name: zuwei.top
 date_format: "ordinal"
 title: 有且可为
 subtitle: "祖为的个人博客"
@@ -52,6 +48,15 @@ components:
     # 图片灯箱效果功能
     fancybox:
         enabled: false
+    # 页脚 IPv6 标识
+    ipv6:
+        enabled: true
+        domain_name: zuwei.top
+    # 页脚备案信息显示
+    icp:
+        enabled: true
+        text: 萌ICP备20230841号
+        link: https://icp.gov.moe/?keyword=20230841
 # 压缩页面内容
 compress_html:
   clippings: all
