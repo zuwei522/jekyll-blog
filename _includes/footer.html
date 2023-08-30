@@ -7,6 +7,10 @@
                     © {{ site.since }}
                     <span title="{{ site.author}}">{{ site.author }}</span>
                     <a href="javascript:window.scrollTo(0,0)" class="right mobile-visible">TOP</a>
+                    {% if site.components.icp.enabled %}
+                    <br>
+                    <a href="{{ site.components.icp.link }}" class="mobile-visible" target="_blank">{{ site.components.icp.text }}</a>
+                    {% endif %}
             </div>
 
             <ul class="site-footer-links right mobile-hidden">
