@@ -10,15 +10,15 @@
             </div>
 
             <ul class="site-footer-links right mobile-hidden">
-                {% if components.ipv6.enabled %}
+                {% if site.components.ipv6.enabled %}
                 <li>
-                    <a href="https://ipw.cn/ipv6webcheck/?site={{ site.ipv6.domain_name }}" title="本站支持IPv6访问" target="_blank"><img style="display:inline-block;vertical-align:middle" alt="本站支持IPv6访问" src="https://static.ipw.cn/icon/ipv6-certified-lite-s4.svg"></a>
+                    <a href="https://ipw.cn/ipv6webcheck/?site={{ site.components.ipv6.domain_name }}" title="本站支持IPv6访问" target="_blank"><img style="display:inline-block;vertical-align:middle" alt="本站支持IPv6访问" src="https://static.ipw.cn/icon/ipv6-certified-lite-s4.svg"></a>
               	</li>
                 {% endif %}
-                {% if components.icp.enabled %}
-                <li><a href="{{ components.icp.link }}" target="_blank">{{ components.icp.text }}</a></li>
+                {% if site.components.icp.enabled %}
+                <li><a href="{{ site.components.icp.link }}" target="_blank">{{ site.components.icp.text }}</a></li>
                 {% endif %}
-                {% if components.ipv6.enabled or components.icp.enabled %}
+                {% if site.components.ipv6.enabled or site.components.icp.enabled %}
                 <li>│</li>
                 {% endif %}
                 <li>
