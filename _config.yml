@@ -41,7 +41,7 @@ components:
     qrcode:
         enabled: true
         path: "/apple-touch-icon.png"
-        image_alt: 五郎
+        image_alt: 有且可为Logo
     # 维基索引页使用哪种视图，支持 列表（list）/分类（cate）
     wiki:
         view: cate
