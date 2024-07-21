@@ -1,8 +1,8 @@
 ---
 layout: wiki
 title: 运算符
-cate1: JavaScript
-cate2: 学习
+cate1: 编程语言
+cate2: JavaScript
 description: JavaScript 的基本运算符
 keywords: JavaScrpit, 运算符
 type:

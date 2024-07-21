@@ -1,8 +1,8 @@
 ---
 layout: wiki
 title: 对象
-cate1: JavaScript
-cate2: 学习
+cate1: 编程语言
+cate2: JavaScript
 description: JavaScript Object
 keywords: JavaScrpit, JSON, Array, String, Date, Math
 type:

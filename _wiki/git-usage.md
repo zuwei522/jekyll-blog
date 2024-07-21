@@ -1,8 +1,8 @@
 ---
 layout: wiki
 title: Git 使用方法
-cate1: Git
-cate2: 学习
+cate1: 工具
+cate2: 版本控制
 description: Git 常用命令及使用方法
 keywords: Git
 type:
