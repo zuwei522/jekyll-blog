@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://zuwei522.github.io
+url: https://blog.zuwei.top
 date_format: "ordinal"
 title: 有且可为
 subtitle: "祖为的个人博客"
@@ -47,11 +47,11 @@ components:
         view: cate
     # 图片灯箱效果功能
     fancybox:
-        enabled: false
+        enabled: true
     # 页脚 IPv6 标识
     ipv6:
         enabled: true
-        domain_name: zuwei.top
+        domain_name: blog.zuwei.top
     # 页脚备案信息显示
     icp:
         enabled: true
@@ -178,10 +178,10 @@ beaudar:
     repo: zuwei522/blog-comments
 # giscus 配置参考：https://giscus.app/zh-CN
 giscus:
-    repo: zuwei522/blog-comments
-    repo-id: R_kgDOG0bx7g
+    repo: zuwei522/zuwei522.github.io
+    repo-id: R_kgDOKKcnfQ
     category: Announcements
-    category-id: DIC_kwDOG0bx7s4CYzWM
+    category-id: DIC_kwDOKKcnfc4CYz7i
     mapping: pathname
 
 # 在使用其它评论组件时可点击显示 Disqus
